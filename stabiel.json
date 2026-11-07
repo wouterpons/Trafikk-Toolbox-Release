@@ -1,0 +1,14 @@
+{
+  "name": "Trafikk Toolbox",
+  "version": "0.7.0",
+  "download_url": "https://github.com/wouterpons/Trafikk-Toolbox-Release/releases/download/v0.7.0/trafikk-toolbox.zip",
+  "homepage": "https://www.trafikk.nl/",
+  "author": "Trafikk",
+  "author_homepage": "https://www.trafikk.nl/",
+  "requires": "6.6",
+  "requires_php": "8.0",
+  "last_updated": "2026-11-07 13:48:00",
+  "sections": {
+    "changelog": "<ul>\n<li><strong>Automatische updates.</strong> Nieuwe versies verschijnen op het Plugins-scherm zoals bij elke plugin, met de changelog achter \"Details\". Automatisch installeren zet je per site aan met WordPress' eigen link \"Automatische updates inschakelen\". Een testsite krijgt ook pre-releases met <code class=\"notranslate\">define( 'TRFK_TOOLBOX_PRERELEASES', true );</code> in wp-config.php.</li>\n<li>Minimale WordPress-versie is nu 6.6: vanaf die versie zet WordPress een automatische update die de site laat crashen zelf terug.</li>\n<li>De release-zip bevat geen screenshots en ontwikkelbestanden meer.</li>\n</ul>"
+  }
+}
