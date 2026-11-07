@@ -1,14 +1,15 @@
 {
   "name": "Trafikk Toolbox",
-  "version": "0.7.0",
-  "download_url": "https://github.com/wouterpons/Trafikk-Toolbox-Release/releases/download/v0.7.0/trafikk-toolbox.zip",
+  "version": "0.7.1",
+  "download_url": "https://github.com/wouterpons/Trafikk-Toolbox-Release/releases/download/v0.7.1/trafikk-toolbox.zip",
   "homepage": "https://www.trafikk.nl/",
   "author": "Trafikk",
   "author_homepage": "https://www.trafikk.nl/",
   "requires": "6.6",
   "requires_php": "8.0",
-  "last_updated": "2026-11-07 13:48:00",
+  "last_updated": "2026-11-07 14:19:16",
   "sections": {
-    "changelog": "<ul>\n<li><strong>Automatische updates.</strong> Nieuwe versies verschijnen op het Plugins-scherm zoals bij elke plugin, met de changelog achter \"Details\". Automatisch installeren zet je per site aan met WordPress' eigen link \"Automatische updates inschakelen\". Een testsite krijgt ook pre-releases met <code class=\"notranslate\">define( 'TRFK_TOOLBOX_PRERELEASES', true );</code> in wp-config.php.</li>\n<li>Minimale WordPress-versie is nu 6.6: vanaf die versie zet WordPress een automatische update die de site laat crashen zelf terug.</li>\n<li>De release-zip bevat geen screenshots en ontwikkelbestanden meer.</li>\n</ul>"
+    "description": "<p><strong>Trafikk Toolbox</strong> bundelt kleine, handige functies in één lichte plugin. Elke functie is een losse module die je zelf aan- of uitzet onder <strong>Instellingen → Toolbox</strong>. Wat uit staat, wordt niet geladen en kost dus niets.</p>\n<h3>Modules</h3>\n<ul>\n<li><strong>Tooltip voor CF7</strong> – een vraagteken met uitleg naast een formulierveld. Werkt met muis, vinger, toetsenbord en screenreader. Gebruik: <code class=\"notranslate\">[tbx_tooltip]Waarom we dit vragen.[/tbx_tooltip]</code></li>\n<li><strong>Random quote</strong> – lijsten met quotes onder het menu Quotes. Bij elke paginaweergave verschijnt er willekeurig één, ook achter een paginacache. Gebruik: <code class=\"notranslate\">[tbx_quote lijst=\"footer\"]</code></li>\n<li><strong>Pagina's kopiëren</strong> – een rijactie <em>Kopiëren</em> bij pagina's en berichten. De kopie wordt een concept met dezelfde inhoud en instellingen.</li>\n</ul>\n<h3>Goed om te weten</h3>\n<ul>\n<li><strong>Vangnet:</strong> crasht een module, dan zet de Toolbox alleen die module uit en meldt dat in de backend. De rest van de site blijft werken.</li>\n<li><strong>Gegevens:</strong> uitzetten bewaart de instellingen van een module. Pas bij het verwijderen van de Toolbox wordt alles opgeruimd.</li>\n<li><strong>Stijl:</strong> alles volgt je thema. Aanpassen doe je in het thema of bij Extra CSS, niet in de plugin.</li>\n<li><strong>Updates:</strong> nieuwe versies verschijnen hier vanzelf. Jij beslist wanneer je bijwerkt.</li>\n</ul>\n<p>Gemaakt door <a href=\"https://www.trafikk.nl/\" rel=\"nofollow\">Trafikk</a>.</p>",
+    "changelog": "<ul>\n<li>Het venster \"Details\" op het Plugins-scherm toont nu een beschrijving van de Toolbox en zijn modules.</li>\n<li>Release-Action robuuster: spaties of een enter achter het token worden genegeerd.</li>\n</ul>"
   }
 }
